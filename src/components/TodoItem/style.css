@@ -1,0 +1,17 @@
+.todoItem {
+  width: 900px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+  border-radius: 1rem;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.close:hover {
+  color: red;
+  cursor: pointer;
+}
